@@ -1,0 +1,3 @@
+# Precompress
+
+Because why not

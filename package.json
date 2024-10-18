@@ -1,0 +1,36 @@
+{
+  "name": "precompress",
+  "version": "0.0.0",
+  "description": "CLI tool to precompress compressible files listed by a glob",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hsablonniere/precompress.git"
+  },
+  "keywords": [
+    "compression",
+    "gzip",
+    "zopfli",
+    "brotli",
+    "zstd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsablonniere/precompress/issues"
+  },
+  "homepage": "https://github.com/hsablonniere/precompress#readme",
+  "volta": {
+    "node": ">= 22"
+  },
+  "dependencies": {
+    "compressible": "2.0.18",
+    "glob": "11.0.0",
+    "mime-types": "2.1.35",
+    "workerpool": "9.2.0"
+  }
+}
